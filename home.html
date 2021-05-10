@@ -1,0 +1,51 @@
+<<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+   <title>Welcome for Event</title>
+   </head>
+
+
+  <body>
+    <div class="proper">
+
+       <center><h1> Welcome to Login Page </h1></center>
+       <hr>
+     </div>
+
+       <div class="place">
+         <h3>username:</h3><br>
+         <input type="text" name="text" id="username">
+         <br><br>
+
+         <h3>password:</h3><br>
+         <input type="password" name="text" id="password">
+           <br><br>
+           <button onclick="login()"SUBMIT</button>
+
+
+       </div>
+
+<script type="text/javascript">
+
+      function login()
+      {
+        var uname=document.getElementById('username').value;
+        var  pass=document.getElementById('password').value;
+
+        if (uname=="common" && pass=="123")
+        {
+          location.assign ("file:///C:/Users/Ronak/Desktop/atom%201/code2/index.html")
+        }
+        else
+        {
+          window.alert("login failed")
+        }
+      }
+
+</script>
+
+  </body>
+</html>

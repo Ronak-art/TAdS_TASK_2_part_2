@@ -1,0 +1,29 @@
+body {
+  background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0, 0, 0, 0.5)),url(after.jpg);
+  height: 100vh;
+  background-position: center;
+  background-size: auto;
+
+}
+.proper{
+  font-family: cursive;
+  color: #c6ffc1;
+}
+
+.place{
+      color: #f3bda1;
+      width: 360px;
+      padding: 13% 0 0;
+      margin: auto;
+      text-align: center;
+}
+.people{
+  color: #c6ffc1;
+    font-family: MV Boli;
+    position: relative;
+    z-index: 1;
+    max-width: 360px;
+    margin: 0 auto 120px;
+    padding: 90px;
+    text-align: center;
+}
